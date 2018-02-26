@@ -1,0 +1,19 @@
+{
+  /*sql*/
+  "database": {
+    "Dialect"     : "mysql",
+    "Database"    : "sujor",
+    "User"        : "root",
+    "Password"    : "",
+    "Charset"     : "utf8",
+    "Host"        : "127.0.0.1",
+    "Port"        : 3306,
+    "MaxIdleConns": 1000,
+    "MaxOpenConns": 2000
+  },
+  /*redis*/
+  "redis": {
+    "Host"        : "127.0.0.1",
+    "Port"        : 6379
+  }
+}
